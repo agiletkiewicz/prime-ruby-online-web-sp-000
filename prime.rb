@@ -5,7 +5,7 @@ def prime?(number)
     return false
   elsif 
     range.any? do |integer|
-    (number % integer == 0) 
+      number % integer == 0 
     end
     return false 
   else 
