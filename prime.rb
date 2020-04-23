@@ -4,8 +4,8 @@ def prime?(number)
   if range.any? do |integer|
     (number % integer == 0) 
     end
-    return true 
-  else 
     return false 
+  else 
+    return true
   end
 end
