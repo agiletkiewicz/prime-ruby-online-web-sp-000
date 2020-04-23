@@ -1,7 +1,7 @@
 
 def prime?(number)
   range = (2..(number - 1)).to_a
-  if number < 0 
+  if number <= 0 
     return false
   elsif 
     range.any? do |integer|
