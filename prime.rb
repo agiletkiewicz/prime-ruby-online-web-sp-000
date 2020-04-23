@@ -4,4 +4,5 @@ def prime?(number)
   range.any? |integer|
     !number % integer == 0 
   end
+  end
 end
